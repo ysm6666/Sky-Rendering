@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: cloud_shape
+  m_Shader: {fileID: 4800000, guid: 926e27c9540a1ff4eb67bf838c0926a2, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _AmbientTrace_ON
+  - _Sphere_Box_Mode
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BlueTex:
+        m_Texture: {fileID: 2800000, guid: d25158ef7a361f6409bbeb2b86bb2118, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CurlTex:
+        m_Texture: {fileID: 2800000, guid: 0ff899222a113d947ab0bbed091507ee, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNoiseTex:
+        m_Texture: {fileID: 11700000, guid: d5ee5a4ee7b652948b29eca67daa6a8f, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 11700000, guid: f24c0310ad26f4249bc1fe2b5c83989c, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WeatherMap:
+        m_Texture: {fileID: 2800000, guid: 4639d9d3fe9535a4b90c660c7a90c77c, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AmbientTraceDistance: 600
+    - _AmbientTraceStrength: 0.6
+    - _AmbientTraceToggle: 1
+    - _AmbientWeight: 1
+    - _BaseShapeScale: 0.2
+    - _CloudHeightMax: 6000
+    - _CloudHeightMin: 2500
+    - _CloudType: 0.59
+    - _CloudTypeVariance: 0.6
+    - _CurlStrength: 0.3
+    - _DensityMuti: 0.85
+    - _DetailNoiseStrength: 1
+    - _DetailScale: 10
+    - _EarthRadius: 6371000
+    - _EdgeSoftness: 0.75
+    - _Extinction: 0.05
+    - _FarPlaneMax: 1000000
+    - _MaxStepCount: 512
+    - _MaxTotalStepDis: 35000
+    - _NightLightIntensity: 0.3
+    - _NoiseScale: 0.005
+    - _PowderStrength: 1
+    - _SilverIntensity: 1.5
+    - _SilverSpread: 0.88
+    - _SphereBoxMode: 1
+    - _StepSize: 20
+    - _SunIntensity: 8
+    - _SunTint: 0.7
+    - _WeatherScale: 0.00006
+    m_Colors:
+    - _AerialParams: {r: 6000, g: 0.00008, b: 0, a: 0}
+    - _BaseNoiseWeight: {r: 0.45, g: 0.63, b: 0.25, a: 0.13}
+    - _BoxCenter: {r: 0, g: 0, b: 0, a: 0}
+    - _BoxSize: {r: 20000, g: 300, b: 20000, a: 0}
+    - _CoverageRange: {r: 0.2, g: 0.8, b: 0, a: 0}
+    - _DetailNoiseWeight: {r: 0.55, g: 0.35, b: 0, a: 0}
+    - _FlowSpeed_Shape_And_Weather: {r: 0, g: 15, b: 0, a: 25}
+    - _HorizonFadeParams: {r: 0.03, g: 0.18, b: 0, a: 0}
+    - _NightLightColor: {r: 0.45, g: 0.54999995, b: 0.8, a: 1}
+    - _PhaseParams: {r: 0.5, g: -0.5, b: 0.2, a: 0}
+    - _ShapeCarve: {r: 0.35, g: 1, b: 0.18, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &2470470616289676793
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
